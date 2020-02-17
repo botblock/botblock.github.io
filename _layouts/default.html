@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>docs.botblock.org - The List of Discord Bot Lists and Services</title>
+    <link rel="canonical" href="https://docs.botblock.org">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta property="og:title" content="docs.botblock.org">
+    <meta property="og:site_name" content="BotBlock - The List of Discord Bot Lists and Services">
+    <meta property="og:url" content="https://docs.botblock.org">
+    <meta property="og:image" content="https://botblock.org/assets/img/icon.png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:description" content="The home for GitHub Pages sites on the BotBlock GitHub org.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@BlockBotOrg">
+    <meta name="twitter:title" content="BotBlock - The List of Discord Bot Lists and Services">
+    <meta name="twitter:description" content="The home for GitHub Pages sites on the BotBlock GitHub org.">
+    <meta property="twitter:image" content="https://botblock.org/assets/img/icon.png">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="botblock, bot, bots, block, bot block, botblock list, bot block list, botblock services, 
+bot block services, botblock service list, bot block service list, botblock services list, bot block services list, 
+discord botblock, discord bot block, discord botblock list, discord bot block list, list, discord, discord bot, 
+discord bots, discord bot list, discord bots list, bot list, bot list list, discord list, discord list list, 
+discord bot services, discord bot service, discord bot services list, discord bot service list, discord services list, 
+discord service list, bot services, bot service, bot services list, bot service list, discord api, bot list api, 
+bot api, api, list api, botlist api, discordapi, discord bot api, discord list api, discord bot list api">
+    <meta property="description" content="The home for GitHub Pages sites on the BotBlock GitHub org.">
+    <meta name="theme-color" content="#4A89DC">
+    <link rel="shortcut icon" href="https://botblock.org/assets/img/icon.png">
+    <meta name="apple-mobile-web-app-title" content="BotBlock">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-touch-icon" href="https://botblock.org/assets/img/apple-touch-icon.png">
+    <link rel="manifest" href="https://botblock.org/assets/site.webmanifest">
+    <link rel="stylesheet" href="https://botblock.org/assets/css/style.min.css">
+    <style>
+        a {
+            color: #4fc0e9
+        }
+
+        a:hover {
+            color: white
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container"><a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false"><span
+                    aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div>
+    </nav>
+    <aside class="menu is-box-shadow" role="navigation" aria-label="main navigation">
+        <ul class="menu-list section">
+            <li>
+                <p class="menu-label brand"><img src="https://botblock.org/assets/img/icon.svg" alt=""><span>BotBlock</span></p>
+            </li>
+            <li><a href="https://botblock.org/">Home</a></li>
+            <li>
+                <p class="menu-label">Lists</p>
+                <ul class="menu-list">
+                    <li><a href="https://botblock.org/lists">All Lists</a></li>
+                    <li><a href="https://botblock.org/lists/new">New Lists</a></li>
+                    <li><a href="https://botblock.org/lists/features">List Features</a></li>
+                    <li><a href="https://botblock.org/lists/best-practices">Best Practices</a></li>
+                    <li>
+                        <form id="navbar_lists_search"><input class="navbar-item input" id="navbar_lists_query"
+                                type="text" placeholder="Name or URL"><a onclick="navbar_lists_go()">Search Lists</a>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p class="menu-label">API</p>
+                <ul class="menu-list">
+                    <li><a href="https://botblock.org/api/docs">API Documentation</a>
+                        <p class="menu-label">Endpoints</p>
+                        <ul class="menu-list endpoints">
+                            <li><a href="https://botblock.org/api/docs#count"><code>POST /api/count</code><span>Update bot server/guild
+                                        count</span></a></li>
+                            <li><a href="https://botblock.org/api/docs#bots"><code>GET /api/bots/:id</code><span>Get bot information from
+                                        lists</span></a></li>
+                            <li><a href="https://botblock.org/api/docs#lists"><code>GET /api/lists</code><span>Get all lists'
+                                        details</span></a></li>
+                            <li><a href="https://botblock.org/api/docs#list"><code>GET /api/lists/:id</code><span>Get a list's
+                                        details</span></a></li>
+                            <li><a href="https://botblock.org/api/docs#legacy-ids"><code>GET /api/legacy-ids</code><span>Get all BotBlock
+                                        legacy IDs</span></a></li>
+                        </ul>
+                        <p class="menu-label">Other</p>
+                        <ul class="menu-list">
+                            <li><a href="https://botblock.org/api/docs#errors">Errors</a></li>
+                            <li><a href="https://botblock.org/api/docs#ratelimits">Ratelimits</a></li>
+                            <li><a href="https://botblock.org/api/docs#cache">Cache</a></li>
+                            <li><a href="https://botblock.org/api/docs/libs">API Libraries</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="https://botblock.org/discord" target="_blank">Discord Server</a></li>
+            <li><a href="https://botblock.org/patreon" target="_blank">Support Us</a></li>
+            <li><a href="https://botblock.org/auth">Sign in with Discord</a></li>
+        </ul>
+    </aside>
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="hero">
+                    <div class="hero-body has-text-centered">
+                        <h1 class="title is-size-1">docs.botblock.org</h1>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="card is-box-shadow">
+                            <div class="card-content">
+                                <div class="content has-text-white is-white">
+                                    {{ content }}
+                                    This is the home for GitHub Pages sites on the <a href="https://github.com/botblock">BotBlock GitHub org</a>.<br>
+                                    <ul>
+                                        <li><a href="https://docs.botblock.org/JavaBotBlockAPI">JavaBotBlockAPI Javadocs</a> (<a href="https://github.com/botblock/JavaBotBlockAPI">Repo</a></li>
+                                        <li><a href="https://botblock.org/lists/best-practices">Discord Bot List Best Practices</a> (<a href="https://github.com/botblock/discord-botlist-best-practices">Repo</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer navbar is-spaced is-box-shadow">
+            <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="https://botblock.org/">BotBlock</a></li>
+                    <li><a href="https://botblock.org/">Lists</a></li>
+                    <li><a href="https://botblock.org/">Best-practices</a></li>
+                </ul>
+                <ul class="right-links">
+                    <li><a href="https://botblock.org/about">About &amp; Credits</a></li>
+                    <li><a href="https://botblock.org/discord" target="_blank">Discord</a></li>
+                    <li><a href="https://botblock.org/patreon" target="_blank">Patreon</a></li>
+                    <li><a href="https://botblock.org/reddit" target="_blank">Reddit</a></li>
+                    <li><a href="https://botblock.org/twitter" target="_blank">Twitter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=undefined"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', '');</script>
+    <script src="https://botblock.org/assets/js/lazyimages.js"></script>
+    <script src="https://botblock.org/assets/js/main.js"></script>
+</body>
+
+</html>
