@@ -1,6 +1,6 @@
 # docs.botblock.org
 
-Home of GitHub Pages on the [BotBlock GitHub org](https://github.com/botblock).
+Home of GitHub Pages sites on the [BotBlock GitHub org](https://github.com/botblock).
 
 ## Pages
 
