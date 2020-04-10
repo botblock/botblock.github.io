@@ -5,7 +5,8 @@ Home of GitHub Pages sites on the [BotBlock GitHub org](https://github.com/botbl
 
 - [Main Website](https://botblock.org)
 
-### Libraries
+## Libraries
+
 * BLAPI ([Repo](https://github.com/botblock/BLAPI)\) - Typescript
 * BotList ([Repo](https://github.com/botblock/BotList)\) - JavaScript
 * BotListAPI ([Repo](https://github.com/botblock/BotListAPI)\) - C#
