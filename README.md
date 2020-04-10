@@ -3,7 +3,7 @@
 Home of GitHub Pages sites on the [BotBlock GitHub org](https://github.com/botblock).
 
 
-* [Main Website](https://botblock.org)
+- [Main Website](https://botblock.org)
 
 ### Libraries
 * BLAPI ([Repo](https://github.com/botblock/BLAPI)\) - Typescript
