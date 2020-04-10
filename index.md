@@ -1,4 +1,4 @@
-This is the home for GitHub Pages sites on the [BotBlock GitHub org](https://github.com/botblock).
+Home of GitHub Pages on the [BotBlock GitHub org](https://github.com/botblock).
 
 ## Libraries
 * BLAPI ([Repo](https://github.com/botblock/BLAPI)\) - Typescript
