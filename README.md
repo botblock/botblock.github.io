@@ -2,7 +2,6 @@
 
 Home of GitHub Pages sites on the [BotBlock GitHub org](https://github.com/botblock).
 
-## Pages
 
 * [Main Website](https://botblock.org)
 
