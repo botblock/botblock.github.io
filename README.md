@@ -10,7 +10,7 @@ Home of GitHub Pages on the [BotBlock GitHub org](https://github.com/botblock).
 * BLAPI ([Repo](https://github.com/botblock/BLAPI)\) - Typescript
 * BotList ([Repo](https://github.com/botblock/BotList)\) - JavaScript
 * BotListAPI ([Repo](https://github.com/botblock/BotListAPI)\) - C#
-* discordlist.py ([Repo](https://github.com/botblock/discordlists.py)\) - Python
+* discordlists.py ([Repo](https://github.com/botblock/discordlists.py)\) - Python
 * [JavaBotBlockAPI](https://docs.botblock.org/JavaBotBlockAPI) ([Repo](https://github.com/botblock/JavaBotBlockAPI)\) - Java
 
 ### Other pages
