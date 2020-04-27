@@ -11,4 +11,4 @@ Home of GitHub Pages sites on the [BotBlock GitHub org](https://github.com/botbl
 ## Others
 
 - [BotBlock.org](https://github.com/botblock/BotBlock.org) - Source code of https://botblock.org
-- [Discord Bot List Best Practices](https://botblock.org/lists/best-practices) ([Repo](https://github.com/botblock/discord-botlist-best-practices)\) - Best practices for bot lists to do
+- [Discord Bot List Best Practices](https://botblock.org/lists/best-practices) ([Repo](https://github.com/botblock/discord-botlist-best-practices)\) - Best practices for bot lists to follow
