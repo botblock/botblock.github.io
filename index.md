@@ -1,4 +1,14 @@
-This is the home for GitHub Pages sites on the [BotBlock GitHub org](https://github.com/botblock).
+Home of GitHub Pages sites on the [BotBlock GitHub org](https://github.com/botblock).
 
-* [JavaBotBlockAPI Javadocs](https://docs.botblock.org/JavaBotBlockAPI) ([Repo](https://github.com/botblock/JavaBotBlockAPI)\)
-* [Discord Bot List Best Practices](https://botblock.org/lists/best-practices) ([Repo](https://github.com/botblock/discord-botlist-best-practices)\)
+## Libraries
+
+- BLAPI ([Repo](https://github.com/botblock/BLAPI)\) - Typescript
+- BotList ([Repo](https://github.com/botblock/BotList)\) - JavaScript
+- BotListAPI ([Repo](https://github.com/botblock/BotListAPI)\) - C#
+- discordlists.py ([Repo](https://github.com/botblock/discordlists.py)\) - Python
+- [JavaBotBlockAPI](https://docs.botblock.org/JavaBotBlockAPI) ([Repo](https://github.com/botblock/JavaBotBlockAPI)\) - Java
+
+## Others
+
+- [BotBlock.org](https://github.com/botblock/BotBlock.org) - Source code of https://botblock.org
+- [Discord Bot List Best Practices](https://botblock.org/lists/best-practices) ([Repo](https://github.com/botblock/discord-botlist-best-practices)\) - Best practices for bot lists to follow
